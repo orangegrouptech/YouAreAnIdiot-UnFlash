@@ -6,6 +6,11 @@
     <RootNamespace>YouAreAnIdiot_UnFlash</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>icon.ico</ApplicationIcon>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+	<AssemblyVersion>1.0.1</AssemblyVersion>
+	<FileVersion>1.0.1</FileVersion>
+	<Version>1.0.1</Version>
+	<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -46,9 +46,10 @@ namespace YouAreAnIdiot_UnFlash
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.ImageLocation = "";
-            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(925, 694);
+            this.pictureBox1.Size = new System.Drawing.Size(928, 711);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -56,7 +57,7 @@ namespace YouAreAnIdiot_UnFlash
             // 
             this.Label_Question.AutoSize = true;
             this.Label_Question.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Question.Location = new System.Drawing.Point(265, 786);
+            this.Label_Question.Location = new System.Drawing.Point(266, 786);
             this.Label_Question.Name = "Label_Question";
             this.Label_Question.Size = new System.Drawing.Size(382, 48);
             this.Label_Question.TabIndex = 1;
@@ -71,7 +72,7 @@ namespace YouAreAnIdiot_UnFlash
             // 
             this.Timer_FT.AutoSize = true;
             this.Timer_FT.Enabled = false;
-            this.Timer_FT.Location = new System.Drawing.Point(865, 763);
+            this.Timer_FT.Location = new System.Drawing.Point(866, 763);
             this.Timer_FT.Name = "Timer_FT";
             this.Timer_FT.Size = new System.Drawing.Size(18, 20);
             this.Timer_FT.TabIndex = 2;
@@ -107,7 +108,7 @@ namespace YouAreAnIdiot_UnFlash
             this.Yes.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Yes.Location = new System.Drawing.Point(660, 860);
             this.Yes.Name = "Yes";
-            this.Yes.Size = new System.Drawing.Size(245, 57);
+            this.Yes.Size = new System.Drawing.Size(244, 57);
             this.Yes.TabIndex = 5;
             this.Yes.Text = "Yes, I am.";
             this.Yes.UseVisualStyleBackColor = true;
@@ -126,6 +127,7 @@ namespace YouAreAnIdiot_UnFlash
             this.Controls.Add(this.Timer_FT);
             this.Controls.Add(this.Label_Question);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
