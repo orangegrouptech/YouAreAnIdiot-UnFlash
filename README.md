@@ -1,5 +1,6 @@
 # YouAreAnIdiot-UnFlash
 This is a near 1:1 remake of YouAreAnIdiot.exe (originally made by KenYue) without its dependency on Flash Player!
+![image](https://github.com/user-attachments/assets/b2839d24-db01-436f-b495-1e1b43bc5d4d)
 ![image](https://github.com/user-attachments/assets/347be110-8d6b-480c-932a-e8a559c201ba)
 
 ## Introduction
